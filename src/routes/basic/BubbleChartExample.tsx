@@ -16,7 +16,7 @@ export const BubbleChartExample: React.FC = () => {
                 xAxisMeasure={xMeasure}
                 yAxisMeasure={yMeasure}
                 viewBy={Ldm.Region}
-                size={Ldm.OrderAmount}
+                // size={Ldm.OrderAmount}
             />
         </div>
     );

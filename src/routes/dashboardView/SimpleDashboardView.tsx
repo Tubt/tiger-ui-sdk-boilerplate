@@ -5,13 +5,14 @@ import { DashboardView } from "@gooddata/sdk-ui-ext";
 import { Ldm } from "../../md";
 // const dashboardRef = idRef();
 
-
 const SimpleDashboardView: React.FC = () => {
-    return <DashboardView 
-                dashboard={Ldm.Dashboards.KD2}  
-                // dashboard={"8d300c4b-fd83-4273-9244-146daa08d9e9"}  
-                isReadOnly 
-            />;
+    return (
+        <DashboardView
+            dashboard={Ldm.Dashboards.KD1}
+            // dashboard={"8d300c4b-fd83-4273-9244-146daa08d9e9"}
+            isReadOnly
+        />
+    );
 };
 
 export default SimpleDashboardView;

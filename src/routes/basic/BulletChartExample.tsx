@@ -9,9 +9,9 @@ export class BulletChartExample extends Component {
         return (
             <div style={{ height: 500 }} className="s-bullet-chart">
                 <BulletChart
-                    primaryMeasure={Ldm.OrderAmount}
+                    primaryMeasure={LdmExt.SumOfPrice}
                     targetMeasure={LdmExt.SumOfQuantity}
-                    comparativeMeasure={LdmExt.SumOfPrice}
+                    // comparativeMeasure={LdmExt.SumOfPrice}
                     viewBy={Ldm.ProductName}
                 />
             </div>
