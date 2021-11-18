@@ -5,12 +5,7 @@ import { ResponsiveContainer, BarChart, CartesianGrid, XAxis, YAxis, Legend, Bar
 
 import { Ldm, LdmExt } from "../../md";
 
-const seriesBy = [
-    Ldm.Price.Avg,
-    LdmExt.SumOfQuantity,
-    // LdmExt.appxCountOfOrderId,
-    LdmExt.medianOfPrice
-];
+const seriesBy = [Ldm.Price.Avg, LdmExt.SumOfQuantity, LdmExt.appxCountOfOrderId, LdmExt.medianOfPrice];
 
 const slicesBy = [Ldm.DateMonthYear];
 
@@ -32,8 +27,14 @@ export const ExecuteWithCustomVisualizationExample: React.FC = () => {
             ErrorComponent={CustomErrorComponent}
         >
             {({ result }) => {
-                const series = result!.data().series().toArray();
-                const slices = result!.data().slices().toArray();
+                const series = result!
+                    .data()
+                    .series()
+                    .toArray();
+                const slices = result!
+                    .data()
+                    .slices()
+                    .toArray();
 
                 const bars = series?.map((value, index) => {
                     return (
@@ -46,9 +47,9 @@ export const ExecuteWithCustomVisualizationExample: React.FC = () => {
                     );
                 });
 
-                const data = slices?.map((slice) => ({
+                const data = slices?.map(slice => ({
                     label: slice.sliceTitles()[0],
-                    ...slice.dataPoints().map((p) => p.rawValue),
+                    ...slice.dataPoints().map(p => p.rawValue),
                 }));
 
                 return (

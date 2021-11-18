@@ -5,7 +5,7 @@ import { idRef, newNegativeAttributeFilter } from "@gooddata/sdk-model";
 
 import { Ldm } from "../../md";
 
-const dashboardRef = idRef(Ldm.Dashboards.KD1);
+const dashboardRef = idRef(Ldm.Dashboards.KD);
 
 // const dashboardRef = idRef("8d300c4b-fd83-4273-9244-146daa08d9e9");
 

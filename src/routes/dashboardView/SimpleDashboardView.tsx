@@ -8,7 +8,7 @@ import { Ldm } from "../../md";
 const SimpleDashboardView: React.FC = () => {
     return (
         <DashboardView
-            dashboard={Ldm.Dashboards.KD1}
+            dashboard={Ldm.Dashboards.KD}
             // dashboard={"8d300c4b-fd83-4273-9244-146daa08d9e9"}
             isReadOnly
         />

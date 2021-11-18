@@ -1,5 +1,5 @@
 /* eslint-disable */
-/* THIS FILE WAS AUTO-GENERATED USING CATALOG EXPORTER; YOU SHOULD NOT EDIT THIS FILE; GENERATE TIME: 2021-10-08T09:10:38.763Z; */
+/* THIS FILE WAS AUTO-GENERATED USING CATALOG EXPORTER; YOU SHOULD NOT EDIT THIS FILE; GENERATE TIME: 2021-11-18T14:42:55.047Z; */
 // @ts-ignore ignore unused imports here if they happen (e.g. when there is no measure in the workspace)
 import {
     newAttribute,
@@ -511,15 +511,15 @@ export const DateDatasets = {
 };
 export const Insights = {
     /**
-     * Insight Title: AD1
-     * Insight ID: 30165a5f-db6f-44e0-af81-e439911ed455
+     * Insight Title: AD-100
+     * Insight ID: 0a097533-91d1-49bc-8206-121dfddc0b8f
      */
-    AD1: "30165a5f-db6f-44e0-af81-e439911ed455",
+    AD100: "0a097533-91d1-49bc-8206-121dfddc0b8f",
 };
 export const Dashboards = {
     /**
-     * Dashboard Title: KD1
-     * Dashboard ID: a9a375f5-95d4-4b21-889c-9624735e95fe
+     * Dashboard Title: KD
+     * Dashboard ID: 1ebc2d9b-d8eb-4834-9e29-362f4ab514e3
      */
-    KD1: "a9a375f5-95d4-4b21-889c-9624735e95fe",
+    KD: "1ebc2d9b-d8eb-4834-9e29-362f4ab514e3",
 };
